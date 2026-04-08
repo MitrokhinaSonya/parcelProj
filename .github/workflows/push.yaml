@@ -5,7 +5,7 @@ on: push
 jobs:
   test:
     runs-on: ubuntu-latest
-    container: golang:1.21
+    container: golang:1.25
 
     steps:
       - uses: actions/checkout@v4
